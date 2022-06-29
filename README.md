@@ -12,7 +12,3 @@
 i)By using Baidu Fanyi API, we are able to achieve the function of translation.
 ![image](https://user-images.githubusercontent.com/97960328/176411133-97ee2310-979e-44f9-b7f6-9e0ebf12cbe8.png)
 ![image](https://user-images.githubusercontent.com/97960328/176411152-6ac6cb00-113e-4f97-8d86-e728242aeb89.png)
-<table><tr>
-<td><img src=[pic1.jpg](https://user-images.githubusercontent.com/97960328/176411133-97ee2310-979e-44f9-b7f6-9e0ebf12cbe8.png) border=0></td>
-<td><img src=[pic2.jpg](https://user-images.githubusercontent.com/97960328/176411152-6ac6cb00-113e-4f97-8d86-e728242aeb89.png) border=0></td>
-</tr></table>
