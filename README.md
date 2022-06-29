@@ -6,7 +6,7 @@
 
 3.General Design and functions
 1)Translator
-![image](https://user-images.githubusercontent.com/97960328/176410874-20aa5518-d903-4eb2-b94b-27021dd00b7f.png，width=100px)
+![image](https://user-images.githubusercontent.com/97960328/176410874-20aa5518-d903-4eb2-b94b-27021dd00b7f.png=100*200)
 ![image](https://user-images.githubusercontent.com/97960328/176410947-7292d6a9-ca9f-491f-811b-f18c22cf51e2.png)
 ![image](https://user-images.githubusercontent.com/97960328/176410960-d75230f6-86c0-4011-814a-4f4f4c5eee8a.png)
 
