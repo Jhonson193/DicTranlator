@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QWidget" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>392</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-size:24px;
+font-family:Century Gothic;
+}
+
+#login{
+background:qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(41, 56, 255, 69), stop:0.227273 rgba(0, 137, 255, 69), stop:0.386364 rgba(16, 94, 255, 208), stop:0.465909 rgba(120, 255, 255, 130), stop:0.507045 rgba(120, 255, 255, 130), stop:0.538328 rgba(101, 138, 255, 255), stop:0.57754 rgba(0, 255, 212, 130), stop:0.801136 rgba(111, 255, 0, 145), stop:1 rgba(115, 255, 154, 69))
+}
+
+QToolButton{
+background:rgb(0, 190, 240);
+border-radius:40px;
+}
+QLabel{
+color:white;
+background:transparent;
+}
+QPushButton{
+background:white;
+border-radius:15px;
+}
+QPushButton:hover{
+background:#333;
+border-radius:15px;
+background:#49ebff;
+}
+QLineEdit{
+background:transparent;
+border:none;
+color:#717072;
+border-bottom:1px solid #717072;
+}</string>
+  </property>
+  <widget class="QPushButton" name="registerbutton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>290</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(137, 207, 240) ;
+font: 17pt &quot;华光琥珀_CNKI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>register</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>20</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/ima/image/user2.png</normaloff>:/ima/image/user2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>431</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+
+font: 25pt &quot;华光琥珀_CNKI&quot;;
+	color: rgb(0, 255, 255);
+}
+
+QFrame{
+background:rgba(0,0,0,0.8);
+border-radius:15px;
+background:url(:/ima/image/sky.jpg);
+}
+QPushButton{
+background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}
+QLineEdit{
+border-radius:15px;
+color:#03a9f4;
+}
+QLabel{
+	color: rgb(176, 248, 255);
+background:#3
+font: 32pt &quot;华光琥珀_CNKI&quot;;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>LOGIN HERE</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignHCenter|Qt::AlignTop</set>
+   </property>
+   <property name="margin">
+    <number>50</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="userline">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>180</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passline">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>250</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string comment="Password" extracomment="Password"/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>154</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 16pt &quot;华光琥珀_CNKI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Username</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>81</x>
+     <y>224</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+font: 16pt &quot;华光琥珀_CNKI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loginbutton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>290</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(137, 207, 240) ;
+font: 17pt &quot;华光琥珀_CNKI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>login</string>
+   </property>
+   <property name="shortcut">
+    <string>Enter, Enter</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>360</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>toolButton</zorder>
+  <zorder>registerbutton</zorder>
+  <zorder>userline</zorder>
+  <zorder>passline</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>loginbutton</zorder>
+  <zorder>lineEdit</zorder>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

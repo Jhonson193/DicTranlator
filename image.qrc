@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/ima">
+        <file>image/780.jpg</file>
+        <file>image/bg1.jpg</file>
+        <file>image/bg2.jpg</file>
+        <file>image/blue.jpg</file>
+        <file>image/green.jpg</file>
+        <file>image/icon.png</file>
+        <file>image/R-C.jpg</file>
+        <file>image/sky.jpg</file>
+        <file>image/user.png</file>
+        <file>image/user1.png</file>
+        <file>image/user2.png</file>
+        <file>image/xingkong.png</file>
+        <file>image/yuzhou.jpg</file>
+        <file>image/home.png</file>
+        <file>image/huagong.jpg</file>
+        <file>image/DT.jpg</file>
+        <file>image/dt.png</file>
+        <file>image/dt1.png</file>
+        <file>image/dt2.png</file>
+    </qresource>
+</RCC>
