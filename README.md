@@ -49,11 +49,13 @@ v) To cover a larger range of users, we offer a language setting where users can
 <img src="https://user-images.githubusercontent.com/97960328/176417899-7fe8fba4-517f-48e2-8ffb-08dbacb182d2.png" height=50% width=50% />
 
 ③Personal library
+
 <img src="https://user-images.githubusercontent.com/97960328/176417925-baf0afd2-fb58-449b-a7cb-0d1e79028c4b.png" height=50% width=50% />
 
 ④obtain the data
   We can obtain the data from all users. For instance, we can see there frequency of word search, and finally saving as chart.
-  <img src="https://user-images.githubusercontent.com/97960328/176418188-ba9b3931-6a06-4fbf-8a2f-553eea700376.png" height=50% width=50% />
+  <img src="https://user-images.githubusercontent.com/97960328/176418188-ba9b3931-6a06-4fbf-8a2f-553eea700376.png" height=10% width=10% />
+  
   <img src="https://user-images.githubusercontent.com/97960328/176418200-971b28c6-e1d4-4dc3-a77b-d06fbea91be3.png" height=50% width=50% />
   <img src="https://user-images.githubusercontent.com/97960328/176418224-49224e51-3639-4d2a-99ef-768d1ee4979a.png" height=50% width=50% />
 
